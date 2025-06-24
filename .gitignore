@@ -25,7 +25,7 @@
 *.log
 
 # IDE specific files
-.vscode/
+# .vscode/
 .idea/
 *.code-workspace
 

@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    
+      {
+        "type": "cppdbg",
+        "request": "launch",
+        "name": "Debug Fortran Program",
+        "program": "${workspaceFolder}/bin/fortran/${fileBasenameNoExtension}",
+        "stopAtEntry": true,
+        "preLaunchTask": "build-fortran",
+        "cwd": "${workspaceFolder}",
+        "externalConsole": false
+      }
+    ],
+    "inputs": [
+    ]
+  }

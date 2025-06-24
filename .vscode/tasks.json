@@ -1,0 +1,34 @@
+{
+    "tasks": [
+      {
+        "label": "build-fortran",
+        "type": "shell",
+        "command": "gfortran",
+        "args": [
+          "-g",
+          "-o",
+          "${workspaceFolder}/bin/fortran/${fileBasenameNoExtension}",
+          "${workspaceFolder}/src/fortran/${fileBasename}"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "run-fortran",
+        "type": "shell",
+        "command": "${workspaceFolder}/bin/fortran/${fileBasenameNoExtension}",
+        "dependsOn": "build-fortran",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": {
+            "kind": "none",
+            "isDefault": false
+        },
+        "problemMatcher": []
+      }
+    ]
+  }

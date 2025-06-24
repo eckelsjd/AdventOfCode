@@ -1,5 +1,5 @@
 # Advent of Code (2024)
-Repo for learning C++.
+Repo for learning C++. (Also some Fortran)
 
 ## Problems
 - **Day 1** - List manipulations and file i/o.
@@ -10,3 +10,5 @@ Repo for learning C++.
 - **Day 6** - Navigating guard patrol.
 - **Day 7** - Cartesian product and operators.
 - **Day 8** - Find antinode locations in a text grid.
+- **Day 9** - Filesystem compression, lost the source file :(
+- **Day 10** - Recursive trail map finder.
