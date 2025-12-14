@@ -1,14 +1,5 @@
-# Advent of Code (2024)
-Repo for learning C++. (Also some Fortran)
+# Advent of Code
+Just passing the time and learning some stuff along the way
 
-## Problems
-- **Day 1** - List manipulations and file i/o.
-- **Day 2** - More lists and files.
-- **Day 3** - Regular expressions.
-- **Day 4** - String manipulation and search.
-- **Day 5** - Sorting lists.
-- **Day 6** - Navigating guard patrol.
-- **Day 7** - Cartesian product and operators.
-- **Day 8** - Find antinode locations in a text grid.
-- **Day 9** - Filesystem compression, lost the source file :(
-- **Day 10** - Recursive trail map finder.
+- **2024** - C++ and Fortran
+- **2025** - Typescript
